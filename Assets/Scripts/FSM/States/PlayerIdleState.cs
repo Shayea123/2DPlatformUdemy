@@ -22,7 +22,7 @@ public class PlayerIdleState : PlayerState
     {
         base.Update();
 
-        if (xInput != 0)
+        if (input.x != 0)
         {
             stateMachine.ChangeState(player.moveState);
         }

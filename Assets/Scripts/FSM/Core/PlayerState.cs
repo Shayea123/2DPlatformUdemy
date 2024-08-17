@@ -7,6 +7,10 @@ public class PlayerState
     protected PlayerStateMachine stateMachine;
     protected Player player;
 
+    protected Rigidbody2D rb;
+    protected Vector2 speed;
+    protected Vector2Int input;
+
     // Move inputs
     protected float xInput;
     private string animBoolName;
@@ -21,10 +25,14 @@ public class PlayerState
     public virtual void Enter()
     {
         player.Anim.SetBool(animBoolName, true);
+        rb = player.rb;
+        speed = player.speed;
+
     }
 
     public virtual void Update() 
     {
+        input = player.input;
         xInput = Input.GetAxisRaw("Horizontal");
     }
 

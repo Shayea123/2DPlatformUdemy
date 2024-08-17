@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Windows;
 
 public class PlayerMoveState : PlayerState
 {
@@ -23,9 +24,9 @@ public class PlayerMoveState : PlayerState
         base.Update();
 
 
-        player.SetVelocity(xInput, player.rb.velocity.y);
+        player.SetVelocity(input.x * speed.x, rb.velocity.y);
 
-        if (xInput == 0)
+        if (player.input.x == 0)
         {
             stateMachine.ChangeState(player.idleState);
         }
