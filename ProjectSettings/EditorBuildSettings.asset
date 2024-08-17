@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/nappin/MobileControllerToolbox/FPS.unity
+    guid: 936fb56b55979074fa1f3104c2a0be92
+  - enabled: 0
+    path: Assets/nappin/MobileControllerToolbox/RPG.unity
+    guid: 293ae45de1ca7b84981401a808f8b1e9
   m_configObjects: {}
