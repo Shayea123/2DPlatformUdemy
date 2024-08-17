@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 00000000000000000000000000000000
+  productGUID: 62e368faf3d87de479b8139602dc7353
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -162,7 +162,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.Nappin.MobileController
-    Standalone: com.DefaultCompany.MobileController
+    Standalone: com.DefaultCompany.2DPlatform
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -857,7 +857,7 @@ PlayerSettings:
   cloudProjectId: 116bee52-b9d0-4cf2-9b42-b1383140914f
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
+  projectName: 2DPlatform
   organizationId: mysteriousx89
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

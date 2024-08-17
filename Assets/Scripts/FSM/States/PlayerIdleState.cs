@@ -26,6 +26,5 @@ public class PlayerIdleState : PlayerState
         {
             stateMachine.ChangeState(player.moveState);
         }
-
     }
 }
